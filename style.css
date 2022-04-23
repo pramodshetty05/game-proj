@@ -2,3 +2,58 @@ header > h1{
     color: red;
     background-color: black;
 }
+
+#gamesSection{
+    background-color: black;
+    height: 350px;
+}
+#gamesFlex{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#gamesSection > h1{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#memoryDiv, #zeroCrossDiv{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+#memoryDiv{
+    background-color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+#zeroCrossDiv{
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+
+#memoryDiv:hover{
+    transform: scale(1.2);
+}
+
+#zeroCrossDiv:hover{
+    transform: scale(1.2);
+}
